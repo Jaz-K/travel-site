@@ -7,6 +7,6 @@
 
     &--blue {
         background-color: $mainBlue;
-        column-rule: #fff;
+        color: #fff;
     }
 }
