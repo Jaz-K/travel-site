@@ -15,8 +15,14 @@ module.exports = {
         filename: "bundled.js",
         path: path.resolve(__dirname, "client"),
     },
+    devServer: {
+        watchFiles: ["./client/**/*.html"],
+        static: "client",
+        hot: true,
+        port: 3000,
+        host: "0.0.0.0",
+    },
     mode: "development",
-    watch: true,
     module: {
         rules: [
             {
