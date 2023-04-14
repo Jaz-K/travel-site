@@ -69,19 +69,21 @@
         Ever since, we&rsquo;ve been working to make travel <strong>better for everyone.</strong>
       </h3>
       <div class="wrapper wrapper--medium wrapper--b-margin">
-        <img sizes="(min-width: 970px) 976px, 100vw "
-          srcset="./public/first-trip-low-res.jpg 565w, ./public/first-trip.jpg 976w, ./public/first-trip-hi-dpi.jpg 1952w"
+        <img class="lazyload" sizes="(min-width: 970px) 976px, 100vw "
+          data-srcset="./public/first-trip-low-res.jpg 565w, ./public/first-trip.jpg 976w, ./public/first-trip-hi-dpi.jpg 1952w"
           alt="Couple walking down a street.">
       </div>
 
       <div class="row row--gutters">
         <div class="row__medium-4 row__medium-4--larger row__b-margin-until-medium">
           <picture>
-            <source media="(min-width:1020px)" srcset="./public/our-start.jpg 404w, ./public/our-start-hi-dpi.jpg 808w"
-              sizes="404px">
+            <source media="(min-width:1020px)"
+              data-srcset="./public/our-start.jpg 404w, ./public/our-start-hi-dpi.jpg 808w" sizes="404px">
             <source media="(min-width:800px)"
-              srcset="./public/our-start-portrait.jpg 382w, ./public/our-start-portrait-hi-dpi.jpg 764w" sizes="320px">
-            <img srcset="./public/our-start-landscape.jpg 800w, ./public/our-start-landscape-hi-dpi.jpg 1600w"
+              data-srcset="./public/our-start-portrait.jpg 382w, ./public/our-start-portrait-hi-dpi.jpg 764w"
+              sizes="320px">
+            <img class="lazyload"
+              data-srcset="./public/our-start-landscape.jpg 800w, ./public/our-start-landscape-hi-dpi.jpg 1600w"
               alt="Our founder JaneDoe">
           </picture>
         </div>
@@ -181,8 +183,8 @@
 
         <div class="row__large-4">
           <div class="testimonial">
-            <img class="testimonial__photo"
-              srcset="./public/testimonial-jane.jpg 160w, ./public/testimonial-jane-hi-dpi.jpg 320w" alt="Jane Doe"
+            <img class="testimonial__photo lazyload"
+              data-srcset="./public/testimonial-jane.jpg 160w, ./public/testimonial-jane-hi-dpi.jpg 320w" alt="Jane Doe"
               sizes="160px">
             <h3 class="testimonial__title">Jane Doe</h3>
             <h4 class="testimonial__subtitle">9 Time Escaper</h4>
@@ -197,8 +199,8 @@
         </div>
         <div class="row__large-4">
           <div class="testimonial">
-            <img class="testimonial__photo"
-              srcset="./public/testimonial-john.jpg 160w, ./public/testimonial-john-hi-dpi.jpg 320w" alt="John"
+            <img class="testimonial__photo lazyload"
+              data-srcset="./public/testimonial-john.jpg 160w, ./public/testimonial-john-hi-dpi.jpg 320w" alt="John"
               sizes="160px">
             <h3 class="testimonial__title">John Smith</h3>
             <h4 class="testimonial__subtitle">4 Time Escaper</h4>
@@ -211,9 +213,9 @@
         </div>
         <div class="row__large-4">
           <div class="testimonial testimonial--last">
-            <img class="testimonial__photo"
-              srcset="./public/testimonial-cat.jpg 160w, ./public/testimonial-cat-hi-dpi.jpg 320w" alt="Cat McKitty"
-              sizes="160px">
+            <img class="testimonial__photo lazyload "
+              data-srcset="./public/testimonial-cat.jpg 160w, ./public/testimonial-cat-hi-dpi.jpg 320w"
+              alt="Cat McKitty" sizes="160px">
             <h3 class="testimonial__title">Cat McKitty</h3>
             <h4 class="testimonial__subtitle">6 Time Escaper</h4>
             <p>&ldquo;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
