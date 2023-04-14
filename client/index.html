@@ -29,9 +29,9 @@
         </div>
         <nav class="primary-nav primary-nav--pull-right">
           <ul>
-            <li><a href="#our-beginning">Our Beginning</a></li>
-            <li><a href="#features">Features</a></li>
-            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a id="our-beginning-link" href="#our-beginning">Our Beginning</a></li>
+            <li><a id="features-link" href="#features">Features</a></li>
+            <li><a id="testimonials-link" href="#testimonials">Testimonials</a></li>
           </ul>
         </nav>
       </div>
@@ -59,7 +59,7 @@
     </div>
   </div>
 
-  <div id="our-beginning" class="page-section">
+  <div id="our-beginning" class="page-section" data-matching-link="#our-beginning-link">
     <div class="wrapper">
       <h2 class="headline headline--center headline--light headline--b-margin-small">The first trip we planned
         <strong>was our own.</strong>
@@ -118,7 +118,7 @@
     </div>
   </div>
 
-  <div id="features" class="page-section page-section--blue">
+  <div id="features" class="page-section page-section--blue" data-matching-link="#features-link">
     <div class="wrapper">
 
       <h2 class="section-title"><img class="section-title__icon" src="./public/icons/star.svg"> Our
@@ -167,7 +167,8 @@
     </div>
   </div>
 
-  <div id="testimonials" class=" page-section page-section--no-b-padding-until-large page-section--testemonials">
+  <div id="testimonials" class=" page-section page-section--no-b-padding-until-large page-section--testemonials"
+    data-matching-link="#testimonials-link">
     <div class="wrapper wrapper--no-padding-until-large">
 
       <h2 class="section-title section-title--blue"><img class="section-title__icon" src="./public/icons/comment.svg">
