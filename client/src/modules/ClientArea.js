@@ -1,4 +1,4 @@
-import axios from "axios";
+import Axios from "axios";
 
 class ClientArea {
     constructor() {
